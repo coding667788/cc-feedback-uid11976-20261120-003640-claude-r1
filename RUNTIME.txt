@@ -1,0 +1,2 @@
+Windows native Python 3.12, standard library and SQLite. Run python from PATH.
+Task prompt: task/PROMPT.txt
