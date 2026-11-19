@@ -1,0 +1,50 @@
+{
+  "note": "Expected: rejected (duplicate-minute); nothing is stored.",
+  "batch_id": "demo-04-duplicate",
+  "handovers": [
+    {
+      "handover_id": "HO-3",
+      "booking_id": "B-DEMO",
+      "area": "A1",
+      "old_escort": "Escort-Li",
+      "new_escort": "Escort-Wang",
+      "at": 20,
+      "confirmations": [
+        {
+          "person": "Escort-Li",
+          "booking_id": "B-DEMO",
+          "area": "A1",
+          "at": 20
+        },
+        {
+          "person": "Escort-Wang",
+          "booking_id": "B-DEMO",
+          "area": "A1",
+          "at": 20
+        }
+      ]
+    },
+    {
+      "handover_id": "HO-4",
+      "booking_id": "B-DEMO",
+      "area": "A1",
+      "old_escort": "Escort-Wang",
+      "new_escort": "Escort-Zhao",
+      "at": 20,
+      "confirmations": [
+        {
+          "person": "Escort-Wang",
+          "booking_id": "B-DEMO",
+          "area": "A1",
+          "at": 20
+        },
+        {
+          "person": "Escort-Zhao",
+          "booking_id": "B-DEMO",
+          "area": "A1",
+          "at": 20
+        }
+      ]
+    }
+  ]
+}

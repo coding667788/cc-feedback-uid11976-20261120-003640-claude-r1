@@ -1,0 +1,11 @@
+{
+  "batch_id": "demo-03-revocation",
+  "revocations": [
+    {
+      "revocation_id": "REV-ZHAO",
+      "person": "Escort-Zhao",
+      "area": "A1",
+      "effective": 100
+    }
+  ]
+}

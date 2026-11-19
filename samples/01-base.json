@@ -1,0 +1,108 @@
+{
+  "batch_id": "demo-01-base",
+  "bookings": [
+    {
+      "booking_id": "B-DEMO",
+      "visitor": "Visitor-Chen",
+      "area": "A1",
+      "start": 0,
+      "end": 120,
+      "quota": 3,
+      "home_escort": "Escort-Li"
+    }
+  ],
+  "presence": [
+    {
+      "person": "Escort-Li",
+      "start": 0,
+      "end": 52
+    },
+    {
+      "person": "Escort-Wang",
+      "start": 48,
+      "end": 92
+    },
+    {
+      "person": "Escort-Zhao",
+      "start": 88,
+      "end": 120
+    },
+    {
+      "person": "Escort-Sun",
+      "start": 0,
+      "end": 120
+    }
+  ],
+  "qualifications": [
+    {
+      "person": "Escort-Li",
+      "area": "A1",
+      "start": 0,
+      "end": 120
+    },
+    {
+      "person": "Escort-Wang",
+      "area": "A1",
+      "start": 0,
+      "end": 120
+    },
+    {
+      "person": "Escort-Zhao",
+      "area": "A1",
+      "start": 0,
+      "end": 120
+    },
+    {
+      "person": "Escort-Sun",
+      "area": "A1",
+      "start": 0,
+      "end": 120
+    }
+  ],
+  "handovers": [
+    {
+      "handover_id": "HO-1",
+      "booking_id": "B-DEMO",
+      "area": "A1",
+      "old_escort": "Escort-Li",
+      "new_escort": "Escort-Wang",
+      "at": 50,
+      "confirmations": [
+        {
+          "person": "Escort-Li",
+          "booking_id": "B-DEMO",
+          "area": "A1",
+          "at": 50
+        },
+        {
+          "person": "Escort-Wang",
+          "booking_id": "B-DEMO",
+          "area": "A1",
+          "at": 50
+        }
+      ]
+    },
+    {
+      "handover_id": "HO-2",
+      "booking_id": "B-DEMO",
+      "area": "A1",
+      "old_escort": "Escort-Wang",
+      "new_escort": "Escort-Zhao",
+      "at": 90,
+      "confirmations": [
+        {
+          "person": "Escort-Wang",
+          "booking_id": "B-DEMO",
+          "area": "A1",
+          "at": 90
+        },
+        {
+          "person": "Escort-Zhao",
+          "booking_id": "B-DEMO",
+          "area": "A1",
+          "at": 90
+        }
+      ]
+    }
+  ]
+}

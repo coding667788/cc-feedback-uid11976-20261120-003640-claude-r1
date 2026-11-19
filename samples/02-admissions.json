@@ -1,0 +1,10 @@
+{
+  "note": "Commands to run, in order, for the quota demo.",
+  "commands": [
+    "admit --booking B-DEMO --at 10  --request REQ-1",
+    "admit --booking B-DEMO --at 60  --request REQ-2",
+    "admit --booking B-DEMO --at 100 --request REQ-3",
+    "admit --booking B-DEMO --at 110 --request REQ-4",
+    "admit --booking B-DEMO --at 10  --request REQ-1"
+  ]
+}

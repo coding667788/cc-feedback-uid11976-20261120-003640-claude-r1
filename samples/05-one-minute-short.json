@@ -1,0 +1,64 @@
+{
+  "batch_id": "demo-05-short",
+  "bookings": [
+    {
+      "booking_id": "B-SHORT",
+      "visitor": "Visitor-Lin",
+      "area": "A2",
+      "start": 0,
+      "end": 40,
+      "quota": 1,
+      "home_escort": "E-A"
+    }
+  ],
+  "presence": [
+    {
+      "person": "E-A",
+      "start": 0,
+      "end": 40
+    },
+    {
+      "person": "E-B",
+      "start": 19,
+      "end": 40
+    }
+  ],
+  "qualifications": [
+    {
+      "person": "E-A",
+      "area": "A2",
+      "start": 0,
+      "end": 40
+    },
+    {
+      "person": "E-B",
+      "area": "A2",
+      "start": 0,
+      "end": 40
+    }
+  ],
+  "handovers": [
+    {
+      "handover_id": "HO-SHORT",
+      "booking_id": "B-SHORT",
+      "area": "A2",
+      "old_escort": "E-A",
+      "new_escort": "E-B",
+      "at": 20,
+      "confirmations": [
+        {
+          "person": "E-A",
+          "booking_id": "B-SHORT",
+          "area": "A2",
+          "at": 20
+        },
+        {
+          "person": "E-B",
+          "booking_id": "B-SHORT",
+          "area": "A2",
+          "at": 20
+        }
+      ]
+    }
+  ]
+}
